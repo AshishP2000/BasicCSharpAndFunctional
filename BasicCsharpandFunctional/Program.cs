@@ -12,16 +12,16 @@ namespace BasicCsharpandFunctional
         {
             int choice = 0;
             Console.WriteLine("Enter number to choose operation: ");
-            Console.WriteLine("1.Swap Numbers");
+            Console.WriteLine("1.Swap Numbers\n2.Even or Odd");
             choice = Convert.ToInt32(Console.ReadLine());
             
             switch (choice)
             {
                 case 1:
-                    //int a = 0, b = 0;
-                    //a = Convert.ToInt32(Console.ReadLine());
-                    //b = Convert.ToInt32(Console.ReadLine());
                     SwapNumbers.Swap();
+                    break;
+                case 2:
+                    EvenOdd.EvenOrOdd();
                     break;
             }
 
