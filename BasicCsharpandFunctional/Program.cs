@@ -13,7 +13,7 @@ namespace BasicCsharpandFunctional
             int choice = 0;
             Console.WriteLine("Enter number to choose operation: ");
             Console.WriteLine("1.Swap Numbers\n2.Even or Odd\n3.Largest Among Three\n4.Qutient and Reminder\n5.Vowel or Consonant" +
-                "\n6.Prime Facors");
+                "\n6.Prime Facors\n7.Harmonic Number");
             choice = Convert.ToInt32(Console.ReadLine());
             
             switch (choice)
@@ -35,6 +35,9 @@ namespace BasicCsharpandFunctional
                     break;
                 case 6:
                     PrimeFactorization.PrimeFactor();
+                    break;
+                case 7:
+                    HarmonicNumber.Harmonic();
                     break;
             }
             Console.ReadLine();
