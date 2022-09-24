@@ -45,6 +45,7 @@
   <ItemGroup>
     <Compile Include="EvenOdd.cs" />
     <Compile Include="LargestAmongThree.cs" />
+    <Compile Include="PrimeFactorization.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="QuotientReminder.cs" />
