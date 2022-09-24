@@ -46,6 +46,7 @@
     <Compile Include="EvenOdd.cs" />
     <Compile Include="HarmonicNumber.cs" />
     <Compile Include="LargestAmongThree.cs" />
+    <Compile Include="LeapYear.cs" />
     <Compile Include="PrimeFactorization.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
