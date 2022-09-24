@@ -12,7 +12,7 @@ namespace BasicCsharpandFunctional
         {
             int choice = 0;
             Console.WriteLine("Enter number to choose operation: ");
-            Console.WriteLine("1.Swap Numbers\n2.Even or Odd\n3.Largest Among Three");
+            Console.WriteLine("1.Swap Numbers\n2.Even or Odd\n3.Largest Among Three\n4.Qutient and Reminder");
             choice = Convert.ToInt32(Console.ReadLine());
             
             switch (choice)
@@ -25,6 +25,9 @@ namespace BasicCsharpandFunctional
                     break;
                 case 3:
                     LargestAmongThree.Largest();
+                    break;
+                case 4:
+                    QuotientReminder.QuotientAndReminder();
                     break;
             }
 
